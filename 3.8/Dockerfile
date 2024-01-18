@@ -1,5 +1,5 @@
 # Use the official Python 3.8 image as the base
-FROM python:3.8@sha256:28f1561fe0279d606b8543d8e2cd54abb7ec58ad4bbca19a065db1229cf3aa27-test
+FROM python:3.8@sha256:796f43cd7370ce0c0cd7f4049652f7d09cf7516c436a99cc7f2a6f989ad2ac93
 
 # Set the working directory in the container
 WORKDIR /app
