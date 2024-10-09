@@ -1,14 +1,1 @@
-# Use the official Python 3.9 image as the base
-FROM python:3.9@sha256:b26d1ebc25212e09c71e04d893bba6d41da61be264b7d0fdea9e8c70cb3abb3d-test
-
-# Set the working directory in the container
-WORKDIR /app
-
-# Copy the application code into the container
-COPY . .
-
-# Install any dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Command to run the application
-CMD ["python", "app.py"]
+IyBVc2UgdGhlIG9mZmljaWFsIFB5dGhvbiAzLjkgaW1hZ2UgYXMgdGhlIGJhc2UKRlJPTSBweXRob246My45QHNoYTI1NjphMjNlZmEwNGE3ZjdhODgxMTUxZmU1ZDQ3Mzc3MDU4OGVmNjM5YzA4ZmQ1ZjBkY2M2OTg3ZGJlMTM3MDVjODI5CgojIFNldCB0aGUgd29ya2luZyBkaXJlY3RvcnkgaW4gdGhlIGNvbnRhaW5lcgpXT1JLRElSIC9hcHAKCiMgQ29weSB0aGUgYXBwbGljYXRpb24gY29kZSBpbnRvIHRoZSBjb250YWluZXIKQ09QWSAuIC4KCiMgSW5zdGFsbCBhbnkgZGVwZW5kZW5jaWVzClJVTiBwaXAgaW5zdGFsbCAtLW5vLWNhY2hlLWRpciAtciByZXF1aXJlbWVudHMudHh0CgojIENvbW1hbmQgdG8gcnVuIHRoZSBhcHBsaWNhdGlvbgpDTUQgWyJweXRob24iLCAiYXBwLnB5Il0K
